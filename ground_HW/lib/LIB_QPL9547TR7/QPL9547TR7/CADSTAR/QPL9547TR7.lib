@@ -1,0 +1,18 @@
+.QPL9547TR7 :1 ;0.1 - 6 GHz Ultra Low-Noise LNA
+SON50P200X200X95-9N-D
+*STM IC
+*NGS
+*PLB 1="VBIAS" 2="RF IN" 3="NC_1" 4="NC_2" 5="NC_3" 6="SHUT DOWN" 7="RF OUT" 8="NC_4" 9="EP"
+*MXP 9
+*DFN QPL9547TR7
+~!Manufacturer_Name (Qorvo)
+~!Manufacturer_Part_Number (QPL9547TR7)
+~!Mouser Part Number (772-QPL9547TR7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Qorvo/QPL9547TR7?qs=7MVldsJ5UaxZMCnAEuCHXA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.qorvo.com/products/d/da007268)
+~!Height (0.95mm)
+~!3D_Model (QPL9547TR7)
+QPL9547TR7
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 

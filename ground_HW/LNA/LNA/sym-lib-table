@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "QPL7420TR7")(type "KiCad")(uri "/home/terry/QSAT/ground_HW/lib/LIB_QPL7420TR7/QPL7420TR7/KiCad/QPL7420TR7.kicad_sym")(options "")(descr ""))
+)

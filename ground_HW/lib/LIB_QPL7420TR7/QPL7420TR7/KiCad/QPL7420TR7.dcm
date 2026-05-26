@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP QPL7420TR7
+D 5  1800 MHz 75 Ohm 20 dB CATV Amplifier
+K
+F https://www.qorvo.com/products/d/da008608
+$ENDCMP
+#
+#End Doc Library

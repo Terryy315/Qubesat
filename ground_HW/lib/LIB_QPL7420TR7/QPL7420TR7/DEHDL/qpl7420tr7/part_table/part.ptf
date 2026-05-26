@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'QPL7420TR7'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Qorvo", "QPL7420TR7" (!) = "", "QFN50P300X300X90-17N-D", "Quad Flat No-Lead", "772-QPL7420TR7", "https://www.mouser.co.uk/ProductDetail/Qorvo/QPL7420TR7?qs=3Rah4i%252BhyCEDyXYZgQlE2Q%3D%3D", "", "", "5  1800 MHz 75 Ohm 20 dB CATV Amplifier", "https://www.qorvo.com/products/d/da008608", "0.9 mm"
+END_PART
+
+END.

@@ -1,0 +1,18 @@
+.QPL7420TR7 :1 ;5  1800 MHz 75 Ohm 20 dB CATV Amplifier
+QFN50P300X300X90-17N-D
+*STM IC
+*NGS
+*PLB 1="GND_1" 2="GND_2" 3="GND_3" 4="RF IN" 5="GND_4" 6="GND_5" 7="GND_6" 8="GND_7" 9="RF OUT / VDD" 10="GND_8" 11="GND_9" 12="GND_10" 13="GND_11" 14="GND_12" 15="GND_13" 16="GND_14" 17="EP"
+*MXP 17
+*DFN QPL7420TR7
+~!Manufacturer_Name (Qorvo)
+~!Manufacturer_Part_Number (QPL7420TR7)
+~!Mouser Part Number (772-QPL7420TR7)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Qorvo/QPL7420TR7?qs=3Rah4i%252BhyCEDyXYZgQlE2Q%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.qorvo.com/products/d/da008608)
+~!Height (0.9mm)
+~!3D_Model (QPL7420TR7)
+QPL7420TR7
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 12.1!U 11.1!U 10.1!U 9.1!U 17.1!U 16.1!U 15.1!U 14.1!U 13.1!U 

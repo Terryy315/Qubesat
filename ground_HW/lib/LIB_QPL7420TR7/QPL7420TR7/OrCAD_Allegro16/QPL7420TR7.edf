@@ -1,0 +1,252 @@
+
+(EDIF
+  (rename &QPL7420TR7 "QPL7420TR7")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2026 01 15 05 15 02)
+      (dataOrigin "19091747/1798774/2.50/17/2/Integrated Circuit")
+      (program "SamacSys ECAD Model QPL7420TR7"
+        (version "5.1"))))
+  (library
+  (rename &QPL7420TR7 "QPL7420TR7")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &QPL7420TR7 "QPL7420TR7")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "IC")
+          (property (rename PACKAGENAME "PackageName") (string "QPL7420TR7"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "QFN50P300X300X90-17N-D"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Qorvo"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "QPL7420TR7"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "772-QPL7420TR7"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Qorvo/QPL7420TR7?qs=3Rah4i%252BhyCEDyXYZgQlE2Q%3D%3D"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string ""))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string ""))
+          (property (rename &Description "Description") (string "5  1800 MHz 75 Ohm 20 dB CATV Amplifier"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "https://www.qorvo.com/products/d/da008608"))
+          (property (rename &Height "Height") (string "0.9 mm"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "QPL7420TR7"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &GND_1 "GND_1")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_2 "GND_2")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_3 "GND_3")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (port
+            (rename &RF_IN "RF_IN")
+            (designator "4")
+            (property (rename ORDER "Order") (string "3") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_4 "GND_4")
+            (designator "5")
+            (property (rename ORDER "Order") (string "4") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_5 "GND_5")
+            (designator "6")
+            (property (rename ORDER "Order") (string "5") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_6 "GND_6")
+            (designator "7")
+            (property (rename ORDER "Order") (string "6") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_7 "GND_7")
+            (designator "8")
+            (property (rename ORDER "Order") (string "7") (owner "OrCAD"))
+          )
+          (port
+            (rename &RF_OUT___VDD "RF_OUT___VDD")
+            (designator "9")
+            (property (rename ORDER "Order") (string "8") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_8 "GND_8")
+            (designator "10")
+            (property (rename ORDER "Order") (string "9") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_9 "GND_9")
+            (designator "11")
+            (property (rename ORDER "Order") (string "10") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_10 "GND_10")
+            (designator "12")
+            (property (rename ORDER "Order") (string "11") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_11 "GND_11")
+            (designator "13")
+            (property (rename ORDER "Order") (string "12") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_12 "GND_12")
+            (designator "14")
+            (property (rename ORDER "Order") (string "13") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_13 "GND_13")
+            (designator "15")
+            (property (rename ORDER "Order") (string "14") (owner "OrCAD"))
+          )
+          (port
+            (rename &GND_14 "GND_14")
+            (designator "16")
+            (property (rename ORDER "Order") (string "15") (owner "OrCAD"))
+          )
+          (port
+            (rename &EP "EP")
+            (designator "17")
+            (property (rename ORDER "Order") (string "16") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &GND_1 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -500) (pt 0 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -500))))
+            )
+            (portImplementation
+              (name &GND_2 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -600) (pt 0 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -600))))
+            )
+            (portImplementation
+              (name &GND_3 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -700) (pt 0 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -700))))
+            )
+            (portImplementation
+              (name &RF_IN (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -800) (pt 0 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -800))))
+            )
+            (portImplementation
+              (name &GND_4 (display PINNAME))
+              (figure PIN (path (pointList (pt 400 -1500) (pt 400 -1300))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 -1500))))
+            )
+            (portImplementation
+              (name &GND_5 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 -1500) (pt 500 -1300))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 -1500))))
+            )
+            (portImplementation
+              (name &GND_6 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 -1500) (pt 600 -1300))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 -1500))))
+            )
+            (portImplementation
+              (name &GND_7 (display PINNAME))
+              (figure PIN (path (pointList (pt 700 -1500) (pt 700 -1300))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 -1500))))
+            )
+            (portImplementation
+              (name &GND_10 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -500) (pt 1400 -500))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -500))))
+            )
+            (portImplementation
+              (name &GND_9 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -600) (pt 1400 -600))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -600))))
+            )
+            (portImplementation
+              (name &GND_8 (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -700) (pt 1400 -700))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -700))))
+            )
+            (portImplementation
+              (name &RF_OUT___VDD (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 1200 -800) (pt 1400 -800))))
+              (connectLocation (figure GRAPHIC (dot (pt 1400 -800))))
+            )
+            (portImplementation
+              (name &EP (display PINNAME))
+              (figure PIN (path (pointList (pt 400 200) (pt 400 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 400 200))))
+            )
+            (portImplementation
+              (name &GND_14 (display PINNAME))
+              (figure PIN (path (pointList (pt 500 200) (pt 500 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 500 200))))
+            )
+            (portImplementation
+              (name &GND_13 (display PINNAME))
+              (figure PIN (path (pointList (pt 600 200) (pt 600 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 600 200))))
+            )
+            (portImplementation
+              (name &GND_12 (display PINNAME))
+              (figure PIN (path (pointList (pt 700 200) (pt 700 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 700 200))))
+            )
+            (portImplementation
+              (name &GND_11 (display PINNAME))
+              (figure PIN (path (pointList (pt 800 200) (pt 800 0))))
+              (connectLocation (figure GRAPHIC (dot (pt 800 200))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 1200 0)
+                  (pt 1200 -1300)
+                  (pt 0 -1300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 1250 30))))
+          )
+        )
+      )
+    )
+  )
+)

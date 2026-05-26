@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "QPL9547TR7"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-11-20-16:22:09)
+    (mountForm default
+        (footprintRef "SON50P200X200X95-9N-D")
+        (spec "System")
+    )
+)

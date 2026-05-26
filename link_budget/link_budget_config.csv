@@ -1,0 +1,36 @@
+category,parameter,value,unit,description
+ground_station,name,Powell River BC,,Ground station identifier (label only)
+ground_station,latitude,49.68333,deg,Geodetic latitude north
+ground_station,longitude,-124.18333,deg,Geodetic longitude east (negative = west)
+ground_station,altitude,90.0,m,Height above WGS84 ellipsoid
+transmitter,tx_power_dbm,34.7,dBm,Transmit power — 3 W = 34.77 dBm
+transmitter,tx_line_loss_db,1.0,dB,TX-side cable and connector insertion loss
+transmitter,sat_antenna_hpbw,100.0,deg,Satellite patch antenna half-power beamwidth
+transmitter,sat_antenna_peak_gain,6.0,dBi,Satellite patch antenna peak boresight gain
+receiver,antenna_diameter,0.7,m,Ground-station parabolic dish diameter
+receiver,antenna_efficiency,0.81,,Dish aperture efficiency
+receiver,lna_noise_figure,1.5,dB,LNA noise figure (Mini-Circuit)
+receiver,lna_gain,20.0,dB,LNA gain (used in Friis cascade)
+receiver,backend_noise_figure,10.0,dB,SDR / backend noise figure (HackRF)
+receiver,cable_length,1.0,m,Coaxial cable length between antenna and LNA input
+receiver,cable_loss_db_per_100m,49.0,dB/100m,Cable loss at carrier frequency — RG-58 @ 2.4 GHz ≈ 49 dB/100m
+receiver,physical_temperature,290.0,K,Physical cable temperature (ITU reference = 290 K)
+receiver,pointing_error,5.0,deg,Expected dish pointing error (1-sigma or worst-case)
+waveform,frequency,2400000000.0,Hz,Carrier frequency
+waveform,modulation,QPSK,,Modulation scheme: BPSK / QPSK / 8PSK / 16QAM / 32QAM / 64QAM
+waveform,fec_code_rate,0.5,,FEC code rate (e.g. 0.5 = rate-1/2 turbo or LDPC)
+waveform,rolloff_factor,0.35,,Root-raised-cosine roll-off factor alpha (0 to 1)
+waveform,data_rate,1000000.0,bps,Information bit rate after FEC decoding
+waveform,required_ebn0_db,2.6,dB,Required Eb/N0 at target BER with FEC applied
+waveform,target_ber,1.0e-6,,Target bit error rate (documents required_ebn0_db)
+environment,polarization_loss_db,3.0,dB,Polarization mismatch loss (circular TX vs linear RX)
+environment,fading_margin_db,3.0,dB,Link margin reserve against short-term fading
+environment,exceedance_probability,1.0,%,ITU rain/atmosphere exceedance probability (1 = 99% availability)
+orbit,orbit_altitude,500000.0,m,Satellite orbital altitude above Earth surface
+analysis,min_elevation_mask,5.0,deg,Minimum elevation angle for valid link calculation
+analysis,grid_resolution,1.0,deg,Geographic coverage grid resolution
+analysis,lat_range_min,-30.0,deg,Coverage grid latitude offset minimum (relative to GS)
+analysis,lat_range_max,30.0,deg,Coverage grid latitude offset maximum (relative to GS)
+analysis,lon_range_min,-30.0,deg,Coverage grid longitude offset minimum (relative to GS)
+analysis,lon_range_max,30.0,deg,Coverage grid longitude offset maximum (relative to GS)
+analysis,simulation_datetime,2026-01-23T14:30:00,,ISO 8601 datetime for ionosphere model

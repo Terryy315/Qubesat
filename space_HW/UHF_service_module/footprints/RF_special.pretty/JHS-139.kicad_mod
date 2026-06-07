@@ -1,0 +1,157 @@
+(footprint "JHS-139"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(tags "Macom")
+	(property "Reference" "REF**"
+		(at 0 3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a6fd9f0b-387b-47a3-a524-3b6283e7bf1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "SF1"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4b4e8b84-bac9-4f21-93bc-d2c4055244bf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.macom.com/datasheets/JH-139_JHS-139.pdf"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64158c85-ba32-4cf0-9a2c-f6ebf0490d4c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Quadrature Hybrid Coupler JHs-139"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d5a7926-638f-481a-94df-70baf8f63940")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -5.5 -7.5)
+		(end 5.5 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "726b5f54-0980-4b4a-86f9-f7778b3ae874")
+	)
+	(fp_circle
+		(center -6.3 -6)
+		(end -6 -6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "fd2b980c-1981-42e1-aec0-c4dfd6aeba3d")
+	)
+	(fp_rect
+		(start -6.8 -7.75)
+		(end 6.8 7.75)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "31275af1-d785-4d37-aa74-947af242cbd8")
+	)
+	(fp_rect
+		(start -6.475 -4.9)
+		(end 6.475 4.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "9bb8583a-cf74-4e79-a225-2fd6d1e9c0a2")
+	)
+	(fp_text user "Macom_JHS-139-PIN"
+		(at 0 10 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "faee6c31-d173-4061-bcea-be8fa75b802f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -4.48 -5.915)
+		(size 0.7 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "e9371fbd-c333-4ba4-b4ba-8571ad446e7d")
+	)
+	(pad "2" smd roundrect
+		(at 4.48 -5.915)
+		(size 0.7 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "686c597d-c946-412d-9a8a-69b5e34ff1ea")
+	)
+	(pad "3" smd roundrect
+		(at -4.48 5.915)
+		(size 0.7 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "00673616-f6f9-46db-b8b9-919a3452abc2")
+	)
+	(pad "4" smd roundrect
+		(at 4.48 5.915)
+		(size 0.7 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "04492de8-e8ab-4bc3-809b-e086b9a63203")
+	)
+	(pad "GND" smd roundrect
+		(at 0 -5.915)
+		(size 2.54 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "2aa342f0-ae2b-4d6e-9eab-7dc9b9485317")
+	)
+	(pad "GND" smd roundrect
+		(at 0 5.915)
+		(size 2.54 2.03)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.15)
+		(uuid "47964c71-abd7-4d13-9302-d796a3bb3e9a")
+	)
+	(embedded_fonts no)
+)
